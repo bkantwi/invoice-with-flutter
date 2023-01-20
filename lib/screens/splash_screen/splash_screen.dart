@@ -21,7 +21,7 @@ class SplashScreen extends StatelessWidget {
             SvgPicture.asset(
               "assets/icons/invoice_logo.svg",
               height: Dimensions.calcH(120),
-              color: Colors.white,
+              color: Colors.blueAccent,
             ),
             SizedBox(
               height: Dimensions.calcH(15),

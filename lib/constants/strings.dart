@@ -14,9 +14,9 @@ class AppStrings {
   static const String DOWNLOAD_BTN = "DOWNLOAD";
 
   /// Splash screen STRINGS
-  static const String APP_NAME = "FATURA";
+  static const String APP_NAME = "Conat Invoice System";
   static const String APP_DESC =
-      "send professional invoices to your clients delivered in seconds!";
+      "Generate your own invoice!";
   static const String START_BTN = "START";
 
   /// Home screen STRINGS

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.invoice_with_flutter">
    <application
-        android:label="invoice_with_flutter"
+        android:label="Conat Invoice"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

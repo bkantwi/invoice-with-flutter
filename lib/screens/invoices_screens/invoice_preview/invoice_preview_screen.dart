@@ -58,26 +58,6 @@ class InvoicePreviewScreen extends StatelessWidget {
                             color: AppColors.kPrimaryColor,
                             textColor: Colors.white,
                           ),
-                          // InkWell(
-                          //   onTap: () {},
-                          //   splashColor: AppColors.kPrimaryLight,
-                          //   child: Container(
-                          //       padding: const EdgeInsets.symmetric(
-                          //           vertical: 10, horizontal: 16),
-                          //       decoration: BoxDecoration(
-                          //         border:
-                          //             Border.all(color: AppColors.kPrimaryDark),
-                          //         borderRadius: BorderRadius.circular(4),
-                          //       ),
-                          //       child: Text(
-                          //         AppStrings.HOME_BTN.toUpperCase(),
-                          //         style: TextStyle(
-                          //           color: AppColors.kPrimaryDark,
-                          //           fontWeight: FontWeight.bold,
-                          //           fontSize: Dimensions.calcH(15),
-                          //         ),
-                          //       )),
-                          // )
                         ],
                       ),
                     )
