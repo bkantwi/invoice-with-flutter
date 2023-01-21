@@ -4,13 +4,15 @@ import 'dart:typed_data';
 import 'package:invoice_with_flutter/models/invoice_model.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';
+import 'dart:math';
 
 class PdfInvoiceApi {
   static Future<Uint8List> generate(Invoice invoice) async {
     const paymentTerms = '${15} days';
+    String invoiceNumber = 'X';
     final titles = <String>['Invoice Number:', 'Invoice Date:', 'Due Date:'];
     final data = <String>[
-      "100",
+      invoiceNumber = Random().nextInt(105).toString(),
       "15",
       paymentTerms,
       "266",
