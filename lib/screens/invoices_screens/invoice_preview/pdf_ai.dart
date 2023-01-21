@@ -127,7 +127,7 @@ class PdfInvoiceApi {
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       ),
-                      value: "\GHS${invoice.total}",
+                      value: "\GHS ${invoice.total}",
                       unite: true,
                     ),
                     SizedBox(height: 2 * PdfPageFormat.mm),

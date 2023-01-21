@@ -27,7 +27,7 @@ TableRow CustomTableRow({required Item? item}) {
           alignment: Alignment.center,
           padding: const EdgeInsets.all(8),
           child: CustomText(
-            text: (item != null) ? "\$${item.price.toStringAsFixed(2)}" : "-",
+            text: (item != null) ? "\GHS ${item.price.toStringAsFixed(2)}" : "-",
             fontSize: 13,
           ),
         ),

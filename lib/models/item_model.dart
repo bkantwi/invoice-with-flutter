@@ -10,7 +10,7 @@ class Item {
   List<String> toList() => [
         name,
         "$qty",
-        "\$${price.toStringAsFixed(2)}",
+        "\GHS${price.toStringAsFixed(2)}",
         ((price * qty).toStringAsFixed(2))
       ];
 }

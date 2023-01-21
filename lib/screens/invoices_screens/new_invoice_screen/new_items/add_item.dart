@@ -93,7 +93,7 @@ class NewItemScreen extends GetView<ItemsController> {
                       Align(
                         alignment: Alignment.bottomRight,
                         child: CustomRichText(
-                          text: "${AppStrings.TOTAL} : \$",
+                          text: "${AppStrings.TOTAL} : \GHS ",
                           children: [
                             TextSpan(
                                 text:
